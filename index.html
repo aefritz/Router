@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Router</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+
+    <h1>Router</h1>
+      <h4>Enter pairs of points where x and y are between -10 and 10.</h4>
+      <h4> Router will find the shortest looped, non-self-intersecting path connecting them.</h4>
+      <br><i><h4 id="subheading">(Try not to use more than 7 points.)</h4></i>
+
+    <svg id="graph" width=30% height=30% viewBox="-10 -10 20 20">
+    </svg><br>
+
+    <p><input id="noOfPts" value='# of points'><button id="submitNoOfPts">submit</button></p><button id="computeButton">compute</button>
+    <table id="pointTable"></table>
+    
+  </body>
+</html>
